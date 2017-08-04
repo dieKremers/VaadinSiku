@@ -36,7 +36,7 @@ public class Car
 	}
 	public List<QualifyingResult> getSortedQualifyingTimes() 
 	{
-		qualifyingTimes.sort(comparator);
+		//qualifyingTimes.sort(comparator);
 		return qualifyingTimes;
 	}
 	public void setQualifyingTime(double qualifyingTime) {
